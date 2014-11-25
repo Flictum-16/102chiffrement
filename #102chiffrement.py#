@@ -12,7 +12,7 @@ def index_of(base, c):
         i += 1
     sys.exit("Phrase invalide, caractère autorisé: \"abcdefghijklmopqrstuvwxyz\" et \" \"")
 
-#put_nbr_base
+#fonction put_nbr_base
 def putnbr_base(nbr, base):
     div = 1
     size_base = len(base)
@@ -27,7 +27,7 @@ def putnbr_base(nbr, base):
         div /= size_base
     return 0
 
-#getnbr_base
+#fonction getnbr_base
 def getnbr_base(s, base):
     res = 0
     sgn = 1
